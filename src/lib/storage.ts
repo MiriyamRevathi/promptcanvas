@@ -311,3 +311,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #080 [1789472261.6580334]: feat(ui): Add PromptEditor sticky section navigation and jump-to controls
 
 // Live GitHub PR #081 [1789472272.7828548]: feat(ui): Enhance QualityScore visual meter circular progress animation
+
+// Live GitHub PR #082 [1789472284.3497984]: feat(ui): Add SavedPromptCard tag filtering and bulk selection checkboxes
