@@ -339,3 +339,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #094 [1789472406.276042]: feat(ui): Add History timeline grouping by date and quick restore button
 
 // Live GitHub PR #095 [1789472419.6881711]: feat(ui): Redesign Settings storage management clear confirmation dialogs
+
+// Live GitHub PR #096 [1789472432.860729]: fix(storage): Add safeParseJSON HTML response detection fallback in local storage
