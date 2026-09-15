@@ -245,3 +245,5 @@ export function clearCurrentUser(): boolean {
 // PR #077 Enhancement: feat(ui): Add CategorySelector hover animations and selected badge highlights
 
 // PR #078 Enhancement: feat(ui): Improve ExampleCard prompt auto-populate transition and focus states
+
+// PR #079 Enhancement: feat(ui): Redesign PromptResult title inline editor with validation tooltips
