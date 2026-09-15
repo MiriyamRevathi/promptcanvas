@@ -10318,3 +10318,5 @@ export function searchBlueprints04(query: string): PromptBlueprint04[] {
   return PROMPT_BLUEPRINTS_04.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #043 Enhancement: feat(blueprints): Add Docker multi-stage build file and container security prompt specs
