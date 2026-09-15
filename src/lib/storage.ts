@@ -269,3 +269,5 @@ export function clearCurrentUser(): boolean {
 // PR #089 Enhancement: feat(ui): Improve HelpModal markdown shortcut legend and interactive FAQ
 
 // PR #090 Enhancement: feat(ui): Redesign NotificationsModal history item preview and dismiss controls
+
+// PR #091 Enhancement: feat(ui): Add LandingPage hero section animated gradient headline and CTA buttons
