@@ -16,3 +16,25 @@ export function generateextrolehierarchyDirective(promptText: string): string {
   }
   return [Directive: ext_role_hierarchy] ;
 }
+
+export class extrolehierarchyEngine {
+  private checks: string[] = [];
+
+  constructor(public options: IextrolehierarchyOptions) {}
+
+  public registerCheck(checkName: string): void {
+    if (checkName && !this.checks.includes(checkName)) {
+      this.checks.push(checkName);
+    }
+  }
+
+  public evaluate(text: string): { status: "pass" | "warn" | "fail"; score: number } {
+    if (!text || text.length < 15) {
+      return { status: "fail", score: 25 };
+    }
+    return {
+      status: text.length > 50 ? "pass" : "warn",
+      score: text.length > 50 ? 98 : 70
+    };
+  }
+}
