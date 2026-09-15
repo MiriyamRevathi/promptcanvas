@@ -9,7 +9,7 @@ import {
  * Normalizes a search query string for safe fuzzy/substring matching
  */
 export function normalizeQuery(query: string): string {
-  return query.trim().toLowerCase();
+  return query.trim().toLowerCase().replace(/\s+/g, ' ');
 }
 
 /**
