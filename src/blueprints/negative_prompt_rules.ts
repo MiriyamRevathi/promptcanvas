@@ -16,3 +16,23 @@ export function generatenegativepromptrulesDirective(context: string): string {
   }
   return Refined prompt specification:  [Domain: negative_prompt_rules];
 }
+
+export class negativepromptrulesValidator {
+  private rules: string[] = [];
+
+  constructor(public blueprint: InegativepromptrulesBlueprint) {}
+
+  public addRule(rule: string): void {
+    if (rule && !this.rules.includes(rule)) {
+      this.rules.push(rule);
+    }
+  }
+
+  public validateSpecification(spec: string): { valid: boolean; score: number } {
+    const hasContent = Boolean(spec && spec.length > 20);
+    return {
+      valid: hasContent,
+      score: hasContent ? 95 : 40
+    };
+  }
+}
