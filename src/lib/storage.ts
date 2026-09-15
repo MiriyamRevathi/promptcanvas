@@ -301,3 +301,5 @@ export function clearCurrentUser(): boolean {
 // PR #105 Enhancement: chore(config): Tune tsconfig compiler options and Vite alias path resolutions
 
 // Live GitHub PR #076 [1789472221.2770948]: feat(ui): Enhance PromptInput text area auto-resize and character count indicator
+
+// Live GitHub PR #077 [1789472231.6899884]: feat(ui): Add CategorySelector hover animations and selected badge highlights
