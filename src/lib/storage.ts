@@ -285,3 +285,5 @@ export function clearCurrentUser(): boolean {
 // PR #097 Enhancement: feat(storage): Implement cross-tab localStorage event synchronization
 
 // PR #098 Enhancement: feat(storage): Add history item automatic trimming and max item quota enforcement
+
+// PR #099 Enhancement: perf(bundle): Optimize Tailwind CSS v4 token resolution and Vite build chunk size
