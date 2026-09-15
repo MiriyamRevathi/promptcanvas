@@ -150,3 +150,4 @@ export const promptCanvasEnhancement67 = () => 67;
 export const promptCanvasEnhancement68 = () => 68;
 export const promptCanvasEnhancement69 = () => 69;
 export const promptCanvasEnhancement70 = () => 70;
+export const promptCanvasEnhancement71 = () => 71;
