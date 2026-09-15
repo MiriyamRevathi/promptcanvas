@@ -80,6 +80,7 @@ export function searchTemplates(
     const matchesDesc = t.description.toLowerCase().includes(normQuery);
     const matchesCat = t.category.toLowerCase().includes(normQuery);
     const matchesTags = t.tags.some((tag) => tag.toLowerCase().includes(normQuery));
+    const matchesTagPhrase = t.tags.join(' ').toLowerCase().includes(normQuery);
     const matchesIdea = t.idea.toLowerCase().includes(normQuery);
 
     return matchesTitle || matchesDesc || matchesCat || matchesTags || matchesIdea;
