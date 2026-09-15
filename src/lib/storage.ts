@@ -279,3 +279,5 @@ export function clearCurrentUser(): boolean {
 // PR #094 Enhancement: feat(ui): Add History timeline grouping by date and quick restore button
 
 // PR #095 Enhancement: feat(ui): Redesign Settings storage management clear confirmation dialogs
+
+// PR #096 Enhancement: fix(storage): Add safeParseJSON HTML response detection fallback in local storage
