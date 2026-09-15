@@ -317,3 +317,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #083 [1789472295.7236044]: feat(ui): Improve SearchInput real-time query debouncing and clear button
 
 // Live GitHub PR #084 [1789472305.8584938]: feat(ui): Refactor Sidebar navigation active indicators and icon alignment
+
+// Live GitHub PR #085 [1789472316.159178]: feat(ui): Enhance Header notification badge dropdown animation and unread counter
