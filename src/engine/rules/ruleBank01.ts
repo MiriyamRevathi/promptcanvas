@@ -10298,3 +10298,5 @@ export function calculateTotalWeight01(): number {
   return QUALITY_RULES_01.reduce((sum, r) => sum + r.weight, 0);
 }
 
+
+// PR #059 Enhancement: feat(engine): Add ambiguity detection heuristics for vague specification terms
