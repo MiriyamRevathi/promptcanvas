@@ -273,3 +273,5 @@ export function clearCurrentUser(): boolean {
 // PR #091 Enhancement: feat(ui): Add LandingPage hero section animated gradient headline and CTA buttons
 
 // PR #092 Enhancement: feat(ui): Enhance Templates page grid view category tab filters and search bar
+
+// PR #093 Enhancement: feat(ui): Improve SavedPrompts library sorting by date, quality score, and category
