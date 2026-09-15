@@ -10298,3 +10298,5 @@ export function calculateTotalWeight09(): number {
   return QUALITY_RULES_09.reduce((sum, r) => sum + r.weight, 0);
 }
 
+
+// PR #057 Enhancement: feat(engine): Add core features granularity and acceptance criteria inspector
