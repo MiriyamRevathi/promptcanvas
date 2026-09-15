@@ -104,3 +104,4 @@ export function searchHistory(items: HistoryItem[], query: string): HistoryItem[
 }
 export const promptCanvasEnhancement23 = () => 23;
 export const promptCanvasEnhancement24 = () => 24;
+export const promptCanvasEnhancement25 = () => 25;
