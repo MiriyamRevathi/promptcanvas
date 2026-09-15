@@ -16,3 +16,23 @@ export function generatecicdspecbuilderDirective(context: string): string {
   }
   return Refined prompt specification:  [Domain: cicd_spec_builder];
 }
+
+export class cicdspecbuilderValidator {
+  private rules: string[] = [];
+
+  constructor(public blueprint: IcicdspecbuilderBlueprint) {}
+
+  public addRule(rule: string): void {
+    if (rule && !this.rules.includes(rule)) {
+      this.rules.push(rule);
+    }
+  }
+
+  public validateSpecification(spec: string): { valid: boolean; score: number } {
+    const hasContent = Boolean(spec && spec.length > 20);
+    return {
+      valid: hasContent,
+      score: hasContent ? 95 : 40
+    };
+  }
+}
