@@ -267,3 +267,5 @@ export function clearCurrentUser(): boolean {
 // PR #088 Enhancement: feat(ui): Enhance AuthModal guest session login transition and form validation
 
 // PR #089 Enhancement: feat(ui): Improve HelpModal markdown shortcut legend and interactive FAQ
+
+// PR #090 Enhancement: feat(ui): Redesign NotificationsModal history item preview and dismiss controls
