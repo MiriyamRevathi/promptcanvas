@@ -325,3 +325,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #087 [1789472335.1954198]: feat(ui): Add Toast notification stack stackable queue and progress bar timer
 
 // Live GitHub PR #088 [1789472344.9962187]: feat(ui): Enhance AuthModal guest session login transition and form validation
+
+// Live GitHub PR #089 [1789472354.3676028]: feat(ui): Improve HelpModal markdown shortcut legend and interactive FAQ
