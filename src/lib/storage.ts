@@ -291,3 +291,5 @@ export function clearCurrentUser(): boolean {
 // PR #100 Enhancement: docs(readme): Expand architecture overview, test coverage guide, and contribution docs
 
 // PR #101 Enhancement: test(specs): Add comprehensive Vitest test coverage for quality scoring engine
+
+// PR #102 Enhancement: test(specs): Formulate formatPrompt markdown and title generator test cases
