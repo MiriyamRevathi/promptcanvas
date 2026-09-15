@@ -257,3 +257,5 @@ export function clearCurrentUser(): boolean {
 // PR #083 Enhancement: feat(ui): Improve SearchInput real-time query debouncing and clear button
 
 // PR #084 Enhancement: feat(ui): Refactor Sidebar navigation active indicators and icon alignment
+
+// PR #085 Enhancement: feat(ui): Enhance Header notification badge dropdown animation and unread counter
