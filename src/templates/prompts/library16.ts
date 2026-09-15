@@ -10318,3 +10318,5 @@ export function searchBlueprints16(query: string): PromptBlueprint16[] {
   return PROMPT_BLUEPRINTS_16.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #035 Enhancement: feat(blueprints): Create Java Spring Boot REST controller and JPA repository prompt specs
