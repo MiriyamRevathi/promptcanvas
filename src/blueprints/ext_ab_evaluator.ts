@@ -16,3 +16,25 @@ export function generateextabevaluatorDirective(promptText: string): string {
   }
   return [Directive: ext_ab_evaluator] ;
 }
+
+export class extabevaluatorEngine {
+  private checks: string[] = [];
+
+  constructor(public options: IextabevaluatorOptions) {}
+
+  public registerCheck(checkName: string): void {
+    if (checkName && !this.checks.includes(checkName)) {
+      this.checks.push(checkName);
+    }
+  }
+
+  public evaluate(text: string): { status: "pass" | "warn" | "fail"; score: number } {
+    if (!text || text.length < 15) {
+      return { status: "fail", score: 25 };
+    }
+    return {
+      status: text.length > 50 ? "pass" : "warn",
+      score: text.length > 50 ? 98 : 70
+    };
+  }
+}
