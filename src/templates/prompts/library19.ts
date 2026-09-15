@@ -10318,3 +10318,5 @@ export function searchBlueprints19(query: string): PromptBlueprint19[] {
   return PROMPT_BLUEPRINTS_19.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #038 Enhancement: feat(blueprints): Create Kotlin Android Jetpack Compose UI prompt specification
