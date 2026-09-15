@@ -10318,3 +10318,5 @@ export function searchBlueprints11(query: string): PromptBlueprint11[] {
   return PROMPT_BLUEPRINTS_11.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #030 Enhancement: feat(blueprints): Add Angular standalone component and RxJS pipeline prompt specs
