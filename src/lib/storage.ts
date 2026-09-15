@@ -347,3 +347,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #098 [1789472455.258511]: feat(storage): Add history item automatic trimming and max item quota enforcement
 
 // Live GitHub PR #099 [1789472465.8068416]: perf(bundle): Optimize Tailwind CSS v4 token resolution and Vite build chunk size
+
+// Live GitHub PR #100 [1789472476.6615]: docs(readme): Expand architecture overview, test coverage guide, and contribution docs
