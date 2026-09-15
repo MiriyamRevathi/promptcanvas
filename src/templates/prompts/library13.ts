@@ -10318,3 +10318,5 @@ export function searchBlueprints13(query: string): PromptBlueprint13[] {
   return PROMPT_BLUEPRINTS_13.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #032 Enhancement: feat(blueprints): Add Python FastAPI async endpoint and Pydantic model prompt templates
