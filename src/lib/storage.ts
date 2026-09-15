@@ -16,11 +16,32 @@ export const DEFAULT_PREFERENCES: UserPreferences = {
   autoSave: true,
 };
 
+export function safeParseJSON<T>(text: string | null | undefined, defaultValue: T): T {
+  if (!text || typeof text !== 'string') return defaultValue;
+  const trimmed = text.trim();
+  if (
+    trimmed.startsWith('<') ||
+    trimmed.startsWith('<!DOCTYPE') ||
+    trimmed.startsWith('<html>') ||
+    trimmed.startsWith('<head>') ||
+    trimmed.startsWith('<!doctype')
+  ) {
+    console.warn('[storage] Ignored non-JSON HTML string payload.');
+    return defaultValue;
+  }
+  try {
+    return JSON.parse(text) as T;
+  } catch (err) {
+    console.warn('[storage] Failed to parse JSON string:', err);
+    return defaultValue;
+  }
+}
+
 function safeGetItem<T>(key: string, defaultValue: T): T {
   try {
     const raw = localStorage.getItem(key);
     if (!raw) return defaultValue;
-    return JSON.parse(raw) as T;
+    return safeParseJSON<T>(raw, defaultValue);
   } catch (err) {
     console.warn(`[storage] Failed to parse item for key "${key}":`, err);
     return defaultValue;
