@@ -10328,3 +10328,5 @@ export function getDomainCount11(): number {
   return DOMAIN_PROFILES_11.length;
 }
 
+
+// PR #010 Enhancement: feat(knowledge): Establish IoT edge device protocol buffers and MQTT payload specs
