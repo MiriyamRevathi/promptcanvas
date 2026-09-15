@@ -277,3 +277,5 @@ export function clearCurrentUser(): boolean {
 // PR #093 Enhancement: feat(ui): Improve SavedPrompts library sorting by date, quality score, and category
 
 // PR #094 Enhancement: feat(ui): Add History timeline grouping by date and quick restore button
+
+// PR #095 Enhancement: feat(ui): Redesign Settings storage management clear confirmation dialogs
