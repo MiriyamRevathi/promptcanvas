@@ -303,3 +303,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #076 [1789472221.2770948]: feat(ui): Enhance PromptInput text area auto-resize and character count indicator
 
 // Live GitHub PR #077 [1789472231.6899884]: feat(ui): Add CategorySelector hover animations and selected badge highlights
+
+// Live GitHub PR #078 [1789472241.5599487]: feat(ui): Improve ExampleCard prompt auto-populate transition and focus states
