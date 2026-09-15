@@ -10302,3 +10302,5 @@ export function calculateTotalWeight07(): number {
 // PR #055 Enhancement: feat(engine): Formulate technical constraints strictness checker and penalty weights
 
 // PR #065 Enhancement: feat(engine): Formulate API endpoint contract completeness scoring rules
+
+// PR #075 Enhancement: feat(engine): Formulate refactoring directive and code review quality rules
