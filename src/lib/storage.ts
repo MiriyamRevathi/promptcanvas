@@ -297,3 +297,5 @@ export function clearCurrentUser(): boolean {
 // PR #103 Enhancement: test(specs): Create search filter query normalization unit test suite
 
 // PR #104 Enhancement: test(specs): Add storage abstraction hydration and deletion unit tests
+
+// PR #105 Enhancement: chore(config): Tune tsconfig compiler options and Vite alias path resolutions
