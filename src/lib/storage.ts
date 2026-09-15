@@ -287,3 +287,5 @@ export function clearCurrentUser(): boolean {
 // PR #098 Enhancement: feat(storage): Add history item automatic trimming and max item quota enforcement
 
 // PR #099 Enhancement: perf(bundle): Optimize Tailwind CSS v4 token resolution and Vite build chunk size
+
+// PR #100 Enhancement: docs(readme): Expand architecture overview, test coverage guide, and contribution docs
