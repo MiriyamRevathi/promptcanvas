@@ -125,3 +125,4 @@ export const promptCanvasEnhancement42 = () => 42;
 export const promptCanvasEnhancement43 = () => 43;
 export const promptCanvasEnhancement44 = () => 44;
 export const promptCanvasEnhancement45 = () => 45;
+export const promptCanvasEnhancement46 = () => 46;
