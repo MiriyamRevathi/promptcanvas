@@ -160,14 +160,15 @@ export const promptCanvasEnhancement78 = () => 78;
 export const promptCanvasEnhancement79 = () => 79;
 export const promptCanvasEnhancement80 = () => 80;
 export const promptCanvasEnhancement81 = () => 81;
-export const promptCanvasEnhancement82 = () => 82;
-
-export const promptCanvasEnhancement75 = () => 75;
 export const promptCanvasEnhancement83 = () => 83;
 export const promptCanvasEnhancement84 = () => 84;
 export const promptCanvasEnhancement85 = () => 85;
 export const promptCanvasEnhancement86 = () => 86;
 export const promptCanvasEnhancement87 = () => 87;
+export const promptCanvasEnhancement88 = () => 88;
+
+export const promptCanvasEnhancement82 = () => 82;
+export const promptCanvasEnhancement75 = () => 75;
 export const promptCanvasEnhancement89 = () => 89;
 export const promptCanvasEnhancement90 = () => 90;
 export const promptCanvasEnhancement91 = () => 91;
