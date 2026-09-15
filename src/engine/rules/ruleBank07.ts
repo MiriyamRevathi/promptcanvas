@@ -10308,3 +10308,5 @@ export function calculateTotalWeight07(): number {
 // Live GitHub PR #055 [1789471993.9699585]: feat(engine): Formulate technical constraints strictness checker and penalty weights
 
 // Live GitHub PR #065 [1789472104.2866879]: feat(engine): Formulate API endpoint contract completeness scoring rules
+
+// Live GitHub PR #075 [1789472210.2756205]: feat(engine): Formulate refactoring directive and code review quality rules
