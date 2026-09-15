@@ -10318,3 +10318,5 @@ export function searchBlueprints20(query: string): PromptBlueprint20[] {
   return PROMPT_BLUEPRINTS_20.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #039 Enhancement: feat(blueprints): Add PostgreSQL schema migration and index optimization prompt templates
