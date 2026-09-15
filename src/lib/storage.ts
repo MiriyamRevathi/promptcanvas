@@ -253,3 +253,5 @@ export function clearCurrentUser(): boolean {
 // PR #081 Enhancement: feat(ui): Enhance QualityScore visual meter circular progress animation
 
 // PR #082 Enhancement: feat(ui): Add SavedPromptCard tag filtering and bulk selection checkboxes
+
+// PR #083 Enhancement: feat(ui): Improve SearchInput real-time query debouncing and clear button
