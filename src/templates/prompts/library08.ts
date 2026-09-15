@@ -10318,3 +10318,5 @@ export function searchBlueprints08(query: string): PromptBlueprint08[] {
   return PROMPT_BLUEPRINTS_08.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #027 Enhancement: feat(blueprints): Add Next.js App Router server actions and SSR prompt templates
