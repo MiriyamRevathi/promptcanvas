@@ -16,3 +16,23 @@ export function generatefeatureflagarchitectureDirective(context: string): strin
   }
   return Refined prompt specification:  [Domain: feature_flag_architecture];
 }
+
+export class featureflagarchitectureValidator {
+  private rules: string[] = [];
+
+  constructor(public blueprint: IfeatureflagarchitectureBlueprint) {}
+
+  public addRule(rule: string): void {
+    if (rule && !this.rules.includes(rule)) {
+      this.rules.push(rule);
+    }
+  }
+
+  public validateSpecification(spec: string): { valid: boolean; score: number } {
+    const hasContent = Boolean(spec && spec.length > 20);
+    return {
+      valid: hasContent,
+      score: hasContent ? 95 : 40
+    };
+  }
+}
