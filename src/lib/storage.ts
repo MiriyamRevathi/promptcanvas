@@ -263,3 +263,5 @@ export function clearCurrentUser(): boolean {
 // PR #086 Enhancement: feat(ui): Redesign MobileMenu drawer backdrop blur and swipe-to-close gestures
 
 // PR #087 Enhancement: feat(ui): Add Toast notification stack stackable queue and progress bar timer
+
+// PR #088 Enhancement: feat(ui): Enhance AuthModal guest session login transition and form validation
