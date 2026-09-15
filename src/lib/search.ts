@@ -154,6 +154,8 @@ export const promptCanvasEnhancement71 = () => 71;
 export const promptCanvasEnhancement72 = () => 72;
 export const promptCanvasEnhancement73 = () => 73;
 export const promptCanvasEnhancement74 = () => 74;
+export const promptCanvasEnhancement75 = () => 75;
+
 export const promptCanvasEnhancement76 = () => 76;
 export const promptCanvasEnhancement77 = () => 77;
 export const promptCanvasEnhancement78 = () => 78;
@@ -183,26 +185,7 @@ export const promptCanvasEnhancement103 = () => 103;
 export const promptCanvasEnhancement104 = () => 104;
 export const promptCanvasEnhancement105 = () => 105;
 export const promptCanvasEnhancement107 = () => 107;
-<<<<<<< HEAD
 export const promptCanvasEnhancement108 = () => 108;
-=======
-export const promptCanvasEnhancement109 = () => 109;
-export const promptCanvasEnhancement110 = () => 110;
-export const promptCanvasEnhancement111 = () => 111;
-export const promptCanvasEnhancement112 = () => 112;
-export const promptCanvasEnhancement113 = () => 113;
-export const promptCanvasEnhancement114 = () => 114;
-export const promptCanvasEnhancement115 = () => 115;
-
-export const promptCanvasEnhancement116 = () => 116;
-export const promptCanvasEnhancement117 = () => 117;
-export const promptCanvasEnhancement118 = () => 118;
-export const promptCanvasEnhancement119 = () => 119;
-export const promptCanvasEnhancement120 = () => 120;
-export const promptCanvasEnhancement121 = () => 121;
-export const promptCanvasEnhancement122 = () => 122;
->>>>>>> origin/main
-
 export const promptCanvasEnhancement109 = () => 109;
 export const promptCanvasEnhancement110 = () => 110;
 export const promptCanvasEnhancement111 = () => 111;
