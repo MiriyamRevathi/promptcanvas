@@ -1,0 +1,6 @@
+{
+  "name": "PromptCanvas",
+  "description": "Turn rough ideas into structured, ready-to-use prompts with deterministic analysis and quality scoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
