@@ -10328,3 +10328,5 @@ export function getDomainCount08(): number {
   return DOMAIN_PROFILES_08.length;
 }
 
+
+// PR #007 Enhancement: feat(knowledge): Configure Dashboard WebSocket telemetry and metrics charting rules
