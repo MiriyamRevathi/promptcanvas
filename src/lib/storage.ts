@@ -275,3 +275,5 @@ export function clearCurrentUser(): boolean {
 // PR #092 Enhancement: feat(ui): Enhance Templates page grid view category tab filters and search bar
 
 // PR #093 Enhancement: feat(ui): Improve SavedPrompts library sorting by date, quality score, and category
+
+// PR #094 Enhancement: feat(ui): Add History timeline grouping by date and quick restore button
