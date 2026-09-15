@@ -289,3 +289,5 @@ export function clearCurrentUser(): boolean {
 // PR #099 Enhancement: perf(bundle): Optimize Tailwind CSS v4 token resolution and Vite build chunk size
 
 // PR #100 Enhancement: docs(readme): Expand architecture overview, test coverage guide, and contribution docs
+
+// PR #101 Enhancement: test(specs): Add comprehensive Vitest test coverage for quality scoring engine
