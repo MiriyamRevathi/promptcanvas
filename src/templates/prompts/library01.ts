@@ -10318,3 +10318,5 @@ export function searchBlueprints01(query: string): PromptBlueprint01[] {
   return PROMPT_BLUEPRINTS_01.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #040 Enhancement: feat(blueprints): Formulate MongoDB aggregation pipeline and document index prompt specs
