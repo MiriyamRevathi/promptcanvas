@@ -329,3 +329,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #089 [1789472354.3676028]: feat(ui): Improve HelpModal markdown shortcut legend and interactive FAQ
 
 // Live GitHub PR #090 [1789472364.4787946]: feat(ui): Redesign NotificationsModal history item preview and dismiss controls
+
+// Live GitHub PR #091 [1789472373.4564223]: feat(ui): Add LandingPage hero section animated gradient headline and CTA buttons
