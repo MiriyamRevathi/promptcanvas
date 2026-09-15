@@ -10320,3 +10320,5 @@ export function searchBlueprints08(query: string): PromptBlueprint08[] {
 
 
 // PR #027 Enhancement: feat(blueprints): Add Next.js App Router server actions and SSR prompt templates
+
+// PR #047 Enhancement: feat(blueprints): Formulate Azure App Service and Cosmos DB binding prompt patterns
