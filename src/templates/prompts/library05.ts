@@ -10318,3 +10318,5 @@ export function searchBlueprints05(query: string): PromptBlueprint05[] {
   return PROMPT_BLUEPRINTS_05.filter(bp => bp.title.toLowerCase().includes(q) || bp.goal.toLowerCase().includes(q));
 }
 
+
+// PR #044 Enhancement: feat(blueprints): Formulate Kubernetes Helm chart and deployment manifest prompt patterns
