@@ -10302,3 +10302,5 @@ export function calculateTotalWeight04(): number {
 // PR #052 Enhancement: feat(engine): Add subject specificity heuristic to goal section evaluator
 
 // PR #062 Enhancement: feat(engine): Add security control requirement validation criteria to quality engine
+
+// PR #072 Enhancement: feat(engine): Add memory footprint and CPU utilization constraint inspectors
