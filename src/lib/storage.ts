@@ -335,3 +335,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #092 [1789472382.792959]: feat(ui): Enhance Templates page grid view category tab filters and search bar
 
 // Live GitHub PR #093 [1789472393.2976978]: feat(ui): Improve SavedPrompts library sorting by date, quality score, and category
+
+// Live GitHub PR #094 [1789472406.276042]: feat(ui): Add History timeline grouping by date and quick restore button
