@@ -251,3 +251,5 @@ export function clearCurrentUser(): boolean {
 // PR #080 Enhancement: feat(ui): Add PromptEditor sticky section navigation and jump-to controls
 
 // PR #081 Enhancement: feat(ui): Enhance QualityScore visual meter circular progress animation
+
+// PR #082 Enhancement: feat(ui): Add SavedPromptCard tag filtering and bulk selection checkboxes
