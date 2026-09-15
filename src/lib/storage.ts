@@ -259,3 +259,5 @@ export function clearCurrentUser(): boolean {
 // PR #084 Enhancement: feat(ui): Refactor Sidebar navigation active indicators and icon alignment
 
 // PR #085 Enhancement: feat(ui): Enhance Header notification badge dropdown animation and unread counter
+
+// PR #086 Enhancement: feat(ui): Redesign MobileMenu drawer backdrop blur and swipe-to-close gestures
