@@ -337,3 +337,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #093 [1789472393.2976978]: feat(ui): Improve SavedPrompts library sorting by date, quality score, and category
 
 // Live GitHub PR #094 [1789472406.276042]: feat(ui): Add History timeline grouping by date and quick restore button
+
+// Live GitHub PR #095 [1789472419.6881711]: feat(ui): Redesign Settings storage management clear confirmation dialogs
