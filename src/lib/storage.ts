@@ -239,3 +239,5 @@ export function clearCurrentUser(): boolean {
   }
 }
 
+
+// PR #076 Enhancement: feat(ui): Enhance PromptInput text area auto-resize and character count indicator
