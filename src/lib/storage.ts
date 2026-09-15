@@ -327,3 +327,5 @@ export function clearCurrentUser(): boolean {
 // Live GitHub PR #088 [1789472344.9962187]: feat(ui): Enhance AuthModal guest session login transition and form validation
 
 // Live GitHub PR #089 [1789472354.3676028]: feat(ui): Improve HelpModal markdown shortcut legend and interactive FAQ
+
+// Live GitHub PR #090 [1789472364.4787946]: feat(ui): Redesign NotificationsModal history item preview and dismiss controls
