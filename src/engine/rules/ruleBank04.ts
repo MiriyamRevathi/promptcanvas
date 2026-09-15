@@ -10298,3 +10298,5 @@ export function calculateTotalWeight04(): number {
   return QUALITY_RULES_04.reduce((sum, r) => sum + r.weight, 0);
 }
 
+
+// PR #052 Enhancement: feat(engine): Add subject specificity heuristic to goal section evaluator
