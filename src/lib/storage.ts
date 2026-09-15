@@ -243,3 +243,5 @@ export function clearCurrentUser(): boolean {
 // PR #076 Enhancement: feat(ui): Enhance PromptInput text area auto-resize and character count indicator
 
 // PR #077 Enhancement: feat(ui): Add CategorySelector hover animations and selected badge highlights
+
+// PR #078 Enhancement: feat(ui): Improve ExampleCard prompt auto-populate transition and focus states
